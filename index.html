@@ -1,1 +1,231 @@
-google-site-verification: googleab55dea1146c8f15.html
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta name="google-site-verification" content="C_YkU_WbS1KGpjf8JClBnesNU8rlZJ_7ZyWwvNbl3qI" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AriaTeam — وب‌سایت رسمی</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0f1a; --fg:#e9eef7; --muted:#9fb3c8; --accent:#5ad1ff;
+      --glass:rgba(255,255,255,0.08); --border:rgba(255,255,255,0.18);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0; background:radial-gradient(1200px 600px at 80% -20%, #14203a, #0b0f1a), #0b0f1a; color:var(--fg); font-family:"Vazirmatn",system-ui; }
+    a{color:var(--accent); text-decoration:none}
+    .container{max-width:1100px; margin:0 auto; padding:0 20px}
+
+    /* Glass card */
+    .glass{background:var(--glass); border:1px solid var(--border); backdrop-filter:blur(14px); border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.35)}
+    .btn{display:inline-block; padding:12px 18px; border-radius:12px; background:linear-gradient(135deg,#5ad1ff,#7cf0d5); color:#091017; font-weight:800}
+    .btn.ghost{background:transparent; color:var(--fg); border:1px solid var(--border)}
+    .pill{padding:6px 10px; border-radius:999px; background:rgba(90,209,255,0.12); border:1px solid var(--border); color:var(--muted); font-size:13px}
+
+    header{position:sticky; top:0; z-index:50; background:linear-gradient(to bottom, rgba(11,15,26,0.85), transparent)}
+    .nav{display:flex; align-items:center; justify-content:space-between; padding:16px 0}
+    .brand{display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:0.5px}
+    .brand .logo{width:36px; height:36px; border-radius:10px; background:linear-gradient(135deg,#5ad1ff,#7cf0d5)}
+    .menu a{margin:0 10px; color:var(--muted)}
+    .theme{cursor:pointer; padding:8px 12px}
+
+    .hero{padding:70px 0 40px}
+    .hero .wrap{display:grid; grid-template-columns:1.2fr 0.8fr; gap:24px}
+    .hero h1{margin:0 0 12px; font-size:38px}
+    .hero p{color:var(--muted)}
+    .hero .actions{display:flex; gap:12px; margin-top:22px}
+    .hero .media{min-height:220px; display:flex; align-items:center; justify-content:center}
+    .hero .media .glass{width:100%; height:220px; display:flex; align-items:center; justify-content:center}
+
+    section{padding:40px 0}
+    .grid{display:grid; gap:16px}
+    .grid.cards{grid-template-columns:repeat(3,1fr)}
+    .card{padding:16px}
+    .card h3{margin:10px 0 6px}
+    .card p{color:var(--muted); font-size:14px}
+    .meta{display:flex; gap:8px; align-items:center; margin-top:10px}
+
+    .team{grid-template-columns:repeat(4,1fr)}
+    .member{padding:16px; text-align:center}
+    .avatar{width:72px; height:72px; border-radius:50%; background:linear-gradient(135deg,#5ad1ff,#7cf0d5); margin:0 auto 12px}
+
+    .contact{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+    .contact .glass{padding:16px}
+    input,textarea{width:100%; padding:10px 12px; margin-top:8px; border-radius:10px; border:1px solid var(--border); background:rgba(255,255,255,0.08); color:var(--fg)}
+    textarea{min-height:120px}
+    .footer{padding:24px 0; color:var(--muted); text-align:center}
+
+    /* Responsive */
+    @media (max-width:900px){
+      .hero .wrap{grid-template-columns:1fr}
+      .grid.cards{grid-template-columns:1fr 1fr}
+      .team{grid-template-columns:1fr 1fr}
+      .contact{grid-template-columns:1fr}
+    }
+    .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: url("images/prof.jpg") center/cover no-repeat;
+  margin: 0 auto 12px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="avatar" style="background:url('prof.jpg') center/cover no-repeat"></div>
+
+       
+        <div>AriaTeam</div>
+      </div>
+      <nav class="menu">
+        <a href="#latest">آخرین‌ها</a>
+        <a href="#projects">پروژه‌ها</a>
+        <a href="#team">تیم</a>
+        <a href="#contact">تماس</a>
+      </nav>
+      <div class="theme pill" id="themeToggle">تم</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <span class="pill">کانال رسمی AriaTeam</span>
+          <h1>اینجا جاییه که کیفیت و خلاقیت به هم می‌رسن</h1>
+          <p>جدیدترین محتواها، پروژه‌ها و آموزش‌های تیم آریا؛ سریع، تمیز و الهام‌بخش. اگر دنبال استاندارد بالا هستی، اینجا خونه‌ته.</p>
+          <div class="actions">
+            <a class="btn" href="#latest">مشاهده آخرین‌ها</a>
+            <a class="btn ghost" href="#contact">ارتباط با ما</a>
+          </div>
+        </div>
+        <div class="media">
+          <div class="glass">
+            <div>ویدیو معرفی یا کاور کانال اینجا قرار می‌گیره</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="latest">
+      <h2>بهترین محتوا</h2>
+      <div class="grid cards">
+        <div class="glass card">
+          <div class="pill">ویدیو</div>
+          <h3>آموزش ساخت سرور MTA بر روی VPS </h3>
+          <p>سرور داشته باش رایگان رایگان پول VPS هم نده داداش</p>
+          <div class="meta">
+            <a class="btn" href="https://www.aparat.com/v/hru5719?refererRef=channel_page" target="_blank">
+  مشاهده در آپارات
+</a>
+          </div>
+        </div>
+        <div class="glass card">
+          <div class="pill">ویدیو</div>
+          <h3>آموزش ساخت سرور MTA بدون VPS</h3>
+          <p>تمرین کن برای ساخت ریسورس و تست آنها</p>
+          <div class="meta">
+                        <a class="btn" href="https://www.aparat.com/v/tpm6q91" target="_blank">
+  مشاهده در آپارات
+</a>
+          </div>
+        </div>
+        <div class="glass card">
+          <div class="pill">ویدیو</div>
+          <h3>آموزش ساخت سایت با هوش مصنوعی</h3>
+          <p>تو این ویدیو یاد میگیری چجوری بدون دانش برنامه نویسی سایت بسازی</p>
+          <div class="meta">
+                        <a class="btn" href="https://www.aparat.com/v/rocu5z2" target="_blank">
+  مشاهده در آپارات
+</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>پروژه‌ها و خدمات</h2>
+      <div class="grid cards">
+        <div class="glass card">
+          <h3>طراحی وب لوکس</h3>
+          <p>تجربه کاربری روان با جزئیات ظریف، انیمیشن نرم و برندینگ حرفه‌ای.</p>
+        </div>
+        <div class="glass card">
+          <h3>سیستم‌های گیمینگ و MTA</h3>
+          <p>منابع ماژولار، UI شفاف و منطق بازی پایدار با ضدتقلب.</p>
+        </div>
+        <div class="glass card">
+          <h3>الکترونیک و ESP32</h3>
+          <p>پروتوتایپ‌های دقیق، مستند و اقتصادی برای پروژه‌های هوشمند.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>اعضای تیم</h2>
+      <div class="grid team">
+        <div class="glass member">
+          <div class="avatar"></div>
+          <strong>Taha Ghasemi</strong>
+          <p class="muted">Leader</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="downloads">
+  <h2>دانلودها</h2>
+  <div class="grid cards">
+    <!-- Resource 1 -->
+    <div class="glass card">
+      <div class="pill">MTA Resource</div>
+      <h3>Engine Toggle</h3>
+      <p>ریسورس روشن/خاموش کردن انجین با دکمه 1</p>
+<p>رمز:ariateam</p>
+      <div class="meta">
+        <a class="btn" href="https://uupload.ir/view/eng-ariateam_i1d.rar/" download>دانلود</a>
+      </div>
+    </div>
+</section>
+        <div class="glass">
+          <h3>چرا AriaTeam؟</h3>
+          <p style="color:var(--muted)">چون به کیفیت، صراحت و تجربه اهمیت می‌دیم. ما اینجا برای ساخت چیزهایی هستیم که بمانند.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="container footer">
+    © AriaTeam — همه حقوق محفوظ است
+  </div>
+
+  <script>
+    // Theme toggle (light/dark)
+    const toggle = document.getElementById('themeToggle');
+    let dark = true;
+    toggle.addEventListener('click', ()=>{
+      dark = !dark;
+      document.documentElement.style.setProperty('--bg', dark ? '#0b0f1a' : '#f2f6fb');
+      document.documentElement.style.setProperty('--fg', dark ? '#e9eef7' : '#10131a');
+      document.documentElement.style.setProperty('--muted', dark ? '#9fb3c8' : '#6b7b8c');
+      document.body.style.background = dark
+        ? 'radial-gradient(1200px 600px at 80% -20%, #14203a, #0b0f1a), #0b0f1a'
+        : '#f2f6fb';
+    });
+
+    // Contact form mock submit
+    document.getElementById('contactForm').addEventListener('submit', (e)=>{
+      e.preventDefault();
+      alert('پیامت ارسال شد! (می‌تونیم اتصال واقعی ایمیل/بات رو اضافه کنیم)');
+    });
+  </script>
+</body>
+</html>
